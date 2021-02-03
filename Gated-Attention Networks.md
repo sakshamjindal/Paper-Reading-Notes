@@ -9,10 +9,10 @@ Code link: here
 
 **Why**
 Challenges involved in Task Oriented Language grounding:
-- - agent has to learn to recognize object in raw pixel input
-- - overcome cases where the object might be occluded or outside field of view
-- - ground (or map) each concept of instruction in visual elements or actions 
-- - reason bout pragmatic of language based on the objects 
+- agent has to learn to recognize object in raw pixel input
+- overcome cases where the object might be occluded or outside field of view
+- ground (or map) each concept of instruction in visual elements or actions 
+- reason bout pragmatic of language based on the objects 
 
 **How?**
 
@@ -41,9 +41,9 @@ Let  $s_t = (I_t,L)$ denote the state at each time stamp. The objective is to le
 Two main cocntrictutions from the paper
 
 1) **State Processing Module**:  It consists of 
-- - Convolutional network to process the image
-- - Gated recurrent unit to process the instructions
-- - Gated- Attention units to combine the image and language representations
+- Convolutional network to process the image
+- Gated recurrent unit to process the instructions
+- Gated- Attention units to combine the image and language representations
 
  Gated- Attention Units : the instruction embeddings are passed throgh a fully-connected linear later with a sigmoid activation. The outpt layer,  
 
